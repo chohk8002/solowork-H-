@@ -14,7 +14,7 @@ public class balance : MonoBehaviour
 
     private void Awake()
     {
-        
+        UpdateUI();
     }
     public void Start()
     {
@@ -24,7 +24,7 @@ public class balance : MonoBehaviour
 
     void UpdateUI()
     {
-        name.UpdateUI();
+        //name.UpdateUI();
         balanceText.text = "ภÜพื: " + accountBalance.ToString();
     }
 }
